@@ -30,12 +30,17 @@ body.wrong{
 }
 
 .container{
-    width: 800px;
+    width: 90%;
+    height: 40%;
     max-width: 80%;
     background-color: white;
     border-radius: 5px;
     padding: 1rem;
     box-shadow: 0 0 10px 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .btn-grid{
@@ -53,6 +58,8 @@ body.wrong{
     padding: 5px 10px;
     color: white;
     outline: none;
+    font-size: 18px;
+    padding: 1rem 2rem;
 }
 
 .btn:hover{
@@ -83,3 +90,5 @@ body.wrong{
 .hide{
     display: none;
 }
+
+

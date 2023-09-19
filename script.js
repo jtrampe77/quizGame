@@ -110,5 +110,25 @@ const questions =[
         ]
 
     },
+    {
+        question: 'Which country is known as the "Land of the Rising Sun"?',
+        answers:[
+            {text: 'China', correct: false},
+            {text: 'South Korea', correct: false},
+            {text: 'Japan', correct: true},
+            {text: 'Vietnam', correct: false}
+        ]
+
+    },
+    {
+        question: 'Which European city is famous for its canals and gondolas?',
+        answers:[
+            {text: 'Paris', correct: false},
+            {text: 'Venice', correct: true},
+            {text: 'Amsterdam', correct: false},
+            {text: 'Barcelona', correct: false}
+        ]
+
+    }
 ]
 
